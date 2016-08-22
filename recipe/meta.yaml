@@ -12,7 +12,7 @@ source:
     - win-rmentry.patch         # [win]
 
 build:
-  number:     0
+  number: 1
   entry_points:
     - nosetests = nose:run_exit
 
@@ -31,7 +31,8 @@ test:
 
 about:
   home: http://readthedocs.org/docs/nose/
-  license: LGPL-2.0
+  license: LGPL-2.1
+  license_file: lgpl.txt
   summary: Nose extends unittest to make testing easier
   description: |
     NOTE: Nose has been in maintenance mode for the past several years and will
@@ -43,4 +44,5 @@ about:
 
 extra:
   recipe-maintainers:
+    - jakirkham
     - msarahan
