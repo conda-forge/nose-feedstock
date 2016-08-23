@@ -12,7 +12,7 @@ source:
     - win-rmentry.patch         # [win]
 
 build:
-  number: 1
+  number: 2
   entry_points:
     - nosetests = nose:run_exit
 
@@ -22,11 +22,13 @@ requirements:
     - setuptools
   run:
     - python
+    - setuptools
 
 test:
   commands:
     - nosetests -h
   imports:
+    - pkg_resources
     - nose
 
 about:
@@ -46,3 +48,4 @@ extra:
   recipe-maintainers:
     - jakirkham
     - msarahan
+    - scopatz
