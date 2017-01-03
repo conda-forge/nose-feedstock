@@ -15,6 +15,18 @@ projects should consider using Nose2, py.test, or just plain
 unittest/unittest2.
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nose-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nose-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/nose-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nose-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nose-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nose-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nose/badges/version.svg)](https://anaconda.org/conda-forge/nose)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nose/badges/downloads.svg)](https://anaconda.org/conda-forge/nose)
+
 Installing nose
 ===============
 
@@ -35,7 +47,6 @@ It is possible to list all of the versions of `nose` available on your platform 
 ```
 conda search nose --channel conda-forge
 ```
-
 
 
 About conda-forge
@@ -71,18 +82,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/nose-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/nose-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/nose-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/nose-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/nose-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/nose-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nose/badges/version.svg)](https://anaconda.org/conda-forge/nose)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/nose/badges/downloads.svg)](https://anaconda.org/conda-forge/nose)
 
 
 Updating nose-feedstock
