@@ -5,7 +5,6 @@ package:
   version: {{ version }}
 
 source:
-  fn: nose-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/n/nose/nose-{{ version }}.tar.gz
   md5: 4d3ad0ff07b61373d2cefc89c5d0b20b
   patches:
@@ -17,9 +16,9 @@ build:
     - nosetests = nose:run_exit
 
 requirements:
-  build:
+  host:
     - python
-    - setuptools
+    - pip
   run:
     - python
     - setuptools
