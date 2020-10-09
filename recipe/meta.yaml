@@ -12,6 +12,7 @@ source:
 
 build:
   number: 1006
+  noarch: python
   entry_points:
     - nosetests = nose:run_exit
   script: {{ PYTHON }} -m pip install . -vv
