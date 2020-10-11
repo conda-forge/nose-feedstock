@@ -11,7 +11,7 @@ source:
   sha256: f1bffef9cbc82628f6e7d7b40d7e255aefaa1adb6a1b1d26c69a8b79e6208a98
 
 build:
-  number: 1005
+  number: 1006
   noarch: python
   entry_points:
     - nosetests = nose:run_exit
@@ -20,9 +20,9 @@ build:
 requirements:
   host:
     - pip
-    - python
+    - python >=3.6
   run:
-    - python
+    - python >=3.6
 
 test:
   imports:
